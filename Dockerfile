@@ -27,7 +27,7 @@ RUN cd cups2mqtt/src && \
     mvn clean package -DskipTests
 
 # --- RUNTIME ---
-FROM eclipse-temurin:11-jre-alpine
+FROM eclipse-temurin:11-jre
 RUN mkdir /opt/app
 WORKDIR /opt/app
 
