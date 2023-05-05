@@ -28,7 +28,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
-        platforms: linux/amd64,linux/arm64/v8
+        platforms: linux/arm/v7,linux/amd64,linux/arm64
         push: true
         tags: pietmacom/cups2mqtt:latest
         
