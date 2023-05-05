@@ -1,3 +1,5 @@
+### This is just a fork with fixed ARM64 docker image build. Please checkout https://github.com/mqtt-home/cups-to-mqtt 
+
 # cups-to-mqtt
 
 [![mqtt-smarthome](https://img.shields.io/badge/mqtt-smarthome-blue.svg)](https://github.com/mqtt-smarthome/mqtt-smarthome)
